@@ -1,4 +1,5 @@
 FROM MS
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/content-library-cleanup-tool
 
 Content library cleanup tool
 08/02/2021
