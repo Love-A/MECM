@@ -52,6 +52,11 @@ if ($DistributionPoints.Count -eq 0) {
 
 Set-Location -Path $env:SystemDrive
 
+If(!(Test-path -Path "$ToolPath\Logs")){
+    New-Item -Path "$ToolPath" -Name "logs" -ItemType "directory"
+}
+
+
 $TrimmedDPName = $DistributionPoints.trim("\")
 
 #Set Params and run CleanupTool
