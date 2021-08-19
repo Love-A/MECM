@@ -1,5 +1,7 @@
 <#
 .SYNOPSIS
+    OBS READ THE MS PAGE ABOUT THE TOOL PRIOR TO USING THIS SCRIPT
+    
     Use the content library cleanup command-line tool to remove content that's no longer associated with an object on a distribution point. 
     This type of content is called orphaned content.
     
